@@ -66,3 +66,6 @@ aws cognito-idp sign-up --region us-east-1 --client-id 4c4gi0p46cc72j4kltpspe4nh
 
  npx aws-api-gateway-cli-test  --username='a1995080130@gmail.com' --password='Shine0125951!' --app-client-id='4vmtqir95fe0v32dbl065ogs8a' --identity-pool-id='us-east-1:59fa6686-b05a-416b-8bc9-4249f0222638'  --cognito-region='us-east-1' --path-template='/notes' --user-pool-id='us-east-1_alhcpnVxb' --invoke-url='https://ztq1w03nse.execute-api.us-east-1.amazonaws.com/dev'  --api-gateway-region='us-east-1' --method='POST' --body='{"content":"hello world","attachment":"hello.jpg"}'
  
+
+ access key: AKIAW44FXQLJXQI5N6Y5
+ secret key: 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

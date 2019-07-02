@@ -1,10 +1,12 @@
+//single Lambda function "create.main" to handle a single HTTP post event at /notes endpointaw
+
 import uuid from "uuid";
 import {success,failure} from "./libs/response-lib";
 import * as dynamoDBLib from "./libs/dynamodb-lib";
 // const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 export async function main(event, context,callback){
-    const data = JSON.parse(event.body);
+    const data = JSON.parse(event.body);  //make event.body a JS object
 
     const params = {
         TableName: "Notes",
