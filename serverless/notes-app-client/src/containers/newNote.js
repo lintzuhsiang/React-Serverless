@@ -49,7 +49,7 @@ class newNote extends Component{
             this.props.history.push('/');
         }catch(e){
             console.log(e);
-            alert(e)
+            // alert(e)
             this.setState({isLoading:false})
         };
 
